@@ -12,8 +12,5 @@ public class MyTrimString implements Converter<String,String> {
 		return arg0.trim();
 	}
 
-	@Override
-	public int hashCode() {
-		return super.hashCode();
-	}
+
 }
