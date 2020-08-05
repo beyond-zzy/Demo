@@ -21,6 +21,15 @@ public class Customer {
 
     private Date addtime;
 
+    private String name;
+
+    public String setName(String name){
+        this.name = name;
+    }
+    public String getName(){
+        return name;
+    }
+
     public Integer getId() {
         return id;
     }
